@@ -1,0 +1,41 @@
+
+.tamano-icono{
+	font-size: 40px;
+}
+
+.tamano-icono-md{
+	font-size: 25px;
+}
+
+.tamano-icono-lg{
+	font-size: 205px;
+}
+
+.card-background  {
+filter: grayscale(20%);	
+background: /*#173c60;*//*#b5e1f2;*/
+}
+
+/*estilos de foto de perfil*/
+.img-circle {
+border-radius: 100%;
+width: 180px;
+padding: 5px;
+margin: 5px;
+}
+.img-habilidades{
+width: 400px;
+}
+
+
+/*colores links redes sociales*/
+.text-facebook {  color: #3b5998; font-size: 50px; border-radius: 100px; }
+.text-twitter {  color: #1da1f2; font-size: 50px; border-radius: 100px; }
+.text-linkedin {  color: #274a65; font-size: 50px; border-radius: 100px; }
+.text-mail {  color: #d9534f;/*f0ad4e*/ font-size: 50px;  }
+.text-whatsapp{  color: #37a958; font-size: 50px; border-radius: 100px; }
+/*666666*/
+ 
+.text-telegram{  color: #4171a2; font-size: 50px; border-radius: 100px; }
+
+.text-mail:hover { color: #d9201a;  }
