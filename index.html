@@ -22,6 +22,50 @@
         <div class="loader"></div>
     </div>
 
+<nav class="navbar  navbar-expand-sm navbar-primary bg-primary text-white p-2" ><!-- fixed-bottom fixed-top -->
+  <a class="navbar-brand text-white" href="#"><span class="text-success">Portafolio-</span>
+    <i class="tamano-icono icon-user-secret "></i>
+     Jose Ramirez </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+  <i  class="tamano-icono text-white icon-menu  "><!-- navbar-toggler-icon --></i>
+    <!-- <span class=""></span> -->
+  </button>
+  
+  <div class="navbar-collapse collapse " id="navbarCollapse" style=""><!-- show -->
+    <ul class="navbar-nav mr-auto nav nav-pills ml-auto"><!-- p-2 padding 2px -->
+     <li class="nav-item">
+      <a class="nav-link  btn-outline-success  active" href="#tab_inicio" data-toggle="tab" >
+       Inicio <span class="tamano-icono-md icon-home"></span>
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link  btn-outline-success " href="#tab_habilidades" data-toggle="tab">
+       Habilidades y valores 
+       <i class="tamano-icono-md icon-hand-rock-o"></i>
+       
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link  btn-outline-success " href="#tab_educacion" data-toggle="tab">
+       Educacion 
+       <i class="tamano-icono-md icon-book"></i>
+       
+      </a>
+     </li>
+     <li class="nav-item dropdown show btn-outline-success text-white">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Proyectos</a>
+        <div class="dropdown-menu " aria-labelledby="dropdown01"><!-- show -->
+          <!-- <a class="dropdown-item" href="#">Action</a> -->
+          <a class="dropdown-item" href="#tab_sAsistencia" data-toggle="tab">Sistema de asistencia</a>
+          <a class="dropdown-item" href="#tab_sNotas" data-toggle="tab">Sistema de notas</a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
 
 
 
@@ -179,56 +223,10 @@
   <br><br><br>
         
 
-<nav class="navbar  navbar-expand-sm fixed-bottom fixed-top navbar-primary bg-primary text-white " ><!-- p-2 fixed-bottom fixed-top -->
-  <a class="navbar-brand text-white" href="#"><span class="text-success">Portafolio-</span>
-    <i class="tamano-icono icon-user-secret "></i>
-     Jose Ramirez </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-  <i  class="tamano-icono text-white icon-menu  "><!-- navbar-toggler-icon --></i>
-    <!-- <span class=""></span> -->
-  </button>
-  
-  <div class="navbar-collapse collapse " id="navbarCollapse" style=""><!-- show -->
-    <ul class="navbar-nav mr-auto nav nav-pills ml-auto"><!-- p-2 padding 2px -->
-     <li class="nav-item">
-      <a class="nav-link  btn-outline-success  active" href="#tab_inicio" data-toggle="tab" >
-       Inicio <span class="tamano-icono-md icon-home"></span>
-      </a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link  btn-outline-success " href="#tab_habilidades" data-toggle="tab">
-       Habilidades y valores 
-       <i class="tamano-icono-md icon-hand-rock-o"></i>
-       
-      </a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link  btn-outline-success " href="#tab_educacion" data-toggle="tab">
-       Educacion 
-       <i class="tamano-icono-md icon-book"></i>
-       
-      </a>
-     </li>
-     <li class="nav-item dropdown show btn-outline-success text-white">
-        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Proyectos</a>
-        <div class="dropdown-menu " aria-labelledby="dropdown01"><!-- show -->
-          <!-- <a class="dropdown-item" href="#">Action</a> -->
-          <a class="dropdown-item" href="#tab_sAsistencia" data-toggle="tab">Sistema de asistencia</a>
-          <a class="dropdown-item" href="#tab_sNotas" data-toggle="tab">Sistema de notas</a>
-        </div>
-      </li>
-
-    </ul>
-  </div>
-</nav>
 
 
 
-
-
-
-
-<!--
+	
       <footer class="pt-4 md-5 pt-5 border-top bg-primary text-white">
         <div class="container">
           <div class="row justify-content-center">
@@ -252,8 +250,8 @@
           </div>
         </div>
       </footer>
-	-->
 
+	
 	<!-- jquery-3.3.1 -->
 	<script src="bootstrap-4.4.1/js/jquery/jquery-3.3.1.min.js"></script>
 	<!-- popper- 2018 -->
@@ -269,9 +267,9 @@
 
 
   // Mobile Toggle Btn
-   $('.navbar-toggle').on('click',function(){
+  $('.navbar-toggle').on('click',function(){
     $('#header').toggleClass('nav-collapse')
-  }); 
+  });
   
 })(jQuery);
     </script>
